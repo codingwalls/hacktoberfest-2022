@@ -1,0 +1,16 @@
+code {
+    color:forestgreen;
+    font-weight:bold;
+  }
+  
+  body { 
+    width: 940px;
+    height: 620px;
+    border: solid blue 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  hr {
+    margin-bottom:40px
+  }
