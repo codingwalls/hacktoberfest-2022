@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Exercise&mdash;Converting Fahrenheit to Celsius</h1>
+<h2>Instructions</h2>
+<p>Write a JavaScript program that prompts the user for a temperature in degrees Fahrenheit (a real number). Compute and store the equivalent degrees Celsius in local varible <code>celsius</code>. Display the value of <code>celsius</code> as part of a user-friendly alert using one decimal place, such as </p>
+
+&ldquo;70.5 degrees Fahrenheit is 21.4 degrees Celsius.&rdquo;</code>. 
+<hr />
+<script>
+    var fahrenheit = prompt("Enter a real number of degrees Fahrenheit:");
+
+fahrenheit = Number(fahrenheit);
+
+var celsius = (fahrenheit - 32) / 1.8;
+
+celsius = celsius.toFixed(1);
+
+alert(fahrenheit + " degrees Fahrenheit is " + celsius + " degrees Celsius.");
+</script>
+</body>
+</html>
